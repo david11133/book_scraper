@@ -1,6 +1,6 @@
 # book_scraper
 
-BookScrapePro is a Python-based web scraping project that extracts book data from the [Books to Scrape](http://books.toscrape.com) website. Using Selenium, the project navigates through specified book categories, collects relevant data such as titles, prices, and stock availability, and exports the information to a CSV file. This project aims to provide a comprehensive dataset for book enthusiasts, data analysts, and developers.
+book_scraper is a Python-based web scraping project that extracts book data from the [Books to Scrape](http://books.toscrape.com) website. Using Selenium, the project navigates through specified book categories, collects relevant data such as titles, prices, and stock availability, and exports the information to a CSV file. This project aims to provide a comprehensive dataset for book enthusiasts, data analysts, and developers.
 
 ## Features
 
@@ -14,15 +14,10 @@ BookScrapePro is a Python-based web scraping project that extracts book data fro
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/yourusername/BookScrapePro.git
-    cd BookScrapePro
+    cd book_scraper
     ```
 
-2. **Install Dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Download ChromeDriver**:
+2. **Download ChromeDriver**:
     Download the ChromeDriver from [here](https://sites.google.com/a/chromium.org/chromedriver/) and place it in a known directory. Update the `CHROME_DRIVER_PATH` in the script accordingly.
 
 ## Usage
@@ -32,17 +27,11 @@ BookScrapePro is a Python-based web scraping project that extracts book data fro
 
 2. **Run the Script**:
     ```bash
-    python bookscrapepro.py
+    python bookScraping.py
     ```
 
 3. **View the Output**:
     The scraped data will be saved in `books_exported.csv`. Open this file to view the collected book data.
-
-## Project Structure
-
-- `bookscrapepro.py`: The main script that contains the scraping and data export logic.
-- `requirements.txt`: Lists the dependencies required to run the project.
-- `README.md`: Project description and instructions.
 
 ## How It Works
 
@@ -58,22 +47,10 @@ BookScrapePro is a Python-based web scraping project that extracts book data fro
 4. **Data Export**:
     - After collecting the data, it is exported to a CSV file for further analysis or use.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [Books to Scrape](http://books.toscrape.com) for providing the data.
 - [Selenium](https://www.selenium.dev/) for the web scraping capabilities.
-
-## Contact
-
-For any inquiries, please contact [yourname](mailto:youremail@example.com).
 
 ---
 
